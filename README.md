@@ -14,7 +14,7 @@
 
 ```
 project/
-├── main.py                     # точка входа (CLI)
+├── main.py                     # точка входа
 ├── config.yaml                 # настройки модели, пути к данным и промптам
 ├── requirements.txt
 │
