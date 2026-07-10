@@ -1,0 +1,24 @@
+# Виртуальное окружение
+venv/
+.venv/
+env/
+
+# Кэш Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Кэш скачанных моделей ИИ (SentenceTransformers и т.д.)
+.cache/
+~/.cache/
+
+# Конфигурации и приватные ключи
+config.yaml
+
+# Системные файлы операционных систем
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

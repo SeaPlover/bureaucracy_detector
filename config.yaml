@@ -1,0 +1,17 @@
+llm:
+  model: "meta-llama/Llama-3.1-8B-Instruct"
+  temperature: 0.1
+  max_tokens: 3000
+  api_key: "hf_..."
+
+preprocessing:
+  use_morph: "natasha"
+
+white_list_path: "data/white_list.txt"
+borrow_list_path: "data/foreign_words.txt"
+weak_verbs_path: "data/weak_verbs.txt"
+
+prompts:
+  verbal_nouns: "data/verbal_nouns_prompt.txt"
+  weak_verbs: "data/weak_verbs_prompt.txt"
+  borrowings: "data/borrowings_prompt.txt"
